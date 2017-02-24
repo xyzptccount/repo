@@ -1,0 +1,72 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2017-02-23T22:07:46.843Z] GhostDriver - Main - running on port 44547
+[INFO  - 2017-02-23T22:07:47.574Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2017-02-23T22:07:47.575Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.customHeaders:  - {}
+[INFO  - 2017-02-23T22:07:47.575Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-23T22:07:47.575Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8269cac0-fa14-11e6-98d3-9bbba37284e5
+[INFO  - 2017-02-23T22:12:46.840Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-02-23T22:16:46.404Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:16:46.404Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:02.890Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:02.891Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:02.891Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:02.891Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:02.892Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:02.892Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:03.086Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:03.086Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:14.980Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:14.980Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:20.800Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:20.801Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:29.438Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:29.439Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:37.122Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:37.123Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:43.262Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:43.262Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[INFO  - 2017-02-23T22:17:46.886Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-02-23T22:17:52.715Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:52.716Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:17:55.261Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:17:55.262Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:18:11.568Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:18:11.568Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:18:14.572Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:18:14.573Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:18:20.860Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'c.Ma')
+[ERROR - 2017-02-23T22:18:20.860Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+  (anonymous function) (:1)
+  (anonymous function) (https://www.millikenmedical.com/combined.js?id=d006eff915a40f4:1)
+  (anonymous function) (https://www.millikenmedical.com/combined.js?id=d006eff915a40f4:1)
+  (anonymous function) (:1)
+  (anonymous function) (:1)
+  (anonymous function) (https://www.millikenmedical.com/combined.js?id=d006eff915a40f4:1)
+  (anonymous function) (https://www.millikenmedical.com/combined.js?id=d006eff915a40f4:1)
+  (anonymous function) (https://www.millikenmedical.com/combined.js?id=d006eff915a40f4:1)
+  (anonymous function) (https://www.millikenmedical.com/combined.js?id=d006eff915a40f4:1)
+[ERROR - 2017-02-23T22:18:36.616Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:18:36.616Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[ERROR - 2017-02-23T22:18:46.744Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2017-02-23T22:18:46.745Z] Session [8269cac0-fa14-11e6-98d3-9bbba37284e5] - page.onError - stack:
+
+[INFO  - 2017-02-23T22:22:46.855Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-23T22:27:46.854Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-23T22:32:46.854Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-23T22:37:46.854Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-23T22:42:46.854Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

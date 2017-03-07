@@ -7,6 +7,7 @@ individualProductNumbers = []
 individualProductPrices = []
 i = 0
 ciu = []
+individualProductName = []
 
 
 #driver = webdriver.Firefox(executable_path='/home/dave/drivers/geckodriver')
@@ -38,22 +39,26 @@ if isBackend == 'MY ACCOUNT':
         for y in ipl:
             individualProductLinks.append(y.get_attribute('href'))
     
-    for x in individualProductLinks:
-        if i == 50:
+    for x in individualProductLinks[::-1]:
+        if i == 1000:
             break
         else:
-            i = i + 1
+            #i = i + 1
             driver.get(x)
             #sleep(2)
             itemNumbers = driver.find_elements_by_css_selector('td.varCode')
             itemPrices = driver.find_elements_by_css_selector('td.price')
-            for y in itemNumbers:
-                ciu.append(str(driver.current_url))
-                individualProductNumbers.append(str(y.text))
             for z in itemPrices:
                 individualProductPrices.append(str(z.text))
+            for y in itemNumbers:
+                individualProductNumbers.append(str(y.text))
+                ciu.append(str(driver.current_url))
+                productNamePtOne = driver.find_element_by_css_selector('.head_right_product_details h2').text
+                productNamePtTwo = driver.find_element_by_css_selector('.head_right_product_details h1').text
+                individualProductName.append(productNamePtOne.replace("'", "") + ' ' + productNamePtTwo.replace("'", ''))
+            
 
-    print len(individualProductLinks)
+                
     print individualProductNumbers
     print individualProductPrices
     print len(individualProductNumbers)
@@ -62,7 +67,9 @@ if isBackend == 'MY ACCOUNT':
     with open('mmItems.py', 'w') as f:
         f.write('numbers = ' + str(individualProductNumbers) + '\n')
         f.write('prices = ' + str(individualProductPrices) + '\n')
-        f.write('links = ' + str(ciu))
+        f.write('links = ' + str(ciu) + '\n')
+        f.write('names = ' + str(individualProductName) + '\n')
+        f.write('#print(len(numbers), len(prices), len(links), len(names))')
         f.close()
 
 
